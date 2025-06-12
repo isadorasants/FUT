@@ -1,0 +1,10 @@
+test_id: Patient-001
+description: Nome do paciente não é fornecido
+instance_path: tests/instances/patient-001.json
+context:
+  profiles:
+    - https://fhir.saude.go.gov.br/r4/core/StructureDefinition/individuo
+expected_results:
+  status: success
+  errors: []
+  warnings: []
